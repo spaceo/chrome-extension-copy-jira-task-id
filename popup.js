@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const jiraTaskIdMatch = tabUrl.match(/selectedIssue=([A-Z]+-[0-9]+)/);
 
         if (!jiraTaskIdMatch || jiraTaskIdMatch[1] === undefined) {
+            status.innerHTML = 'No jira task id was found';
             return;
         }
 
