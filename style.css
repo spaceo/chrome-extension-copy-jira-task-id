@@ -1,0 +1,8 @@
+body{
+    min-width: 450px;
+}
+
+.what-was-copied {
+    font-style: italic;
+    color: darkslateblue;
+}
