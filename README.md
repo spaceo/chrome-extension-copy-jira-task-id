@@ -1,3 +1,3 @@
-# Copy url basename
+# Copy Jira task id
 
-Simple chrome extension that copies the end of the current url
+Simple extension that copies the current jira task id

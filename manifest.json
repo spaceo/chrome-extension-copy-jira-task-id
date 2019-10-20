@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "1.0",
   "name": "Copy Jira task id",
-  "description": "Simple extension that copies the end of the current jira task",
+  "description": "Simple extension that copies the current jira task id",
   "icons": {
     "16": "images/puppy16.png",
     "48": "images/puppy48.png",
