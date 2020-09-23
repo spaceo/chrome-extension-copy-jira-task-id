@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const status = document.getElementById('status');
     chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
         const tabUrl = tabs[0].url;
-        const jiraTaskIdMatch = tabUrl.match(/selectedIssue=([A-Z]+-[0-9]+)/);
+        const jiraTaskIdMatch = tabUrl.match(/selectedIssue=([A-Z][A-Z0-9]*-[0-9]+)/);
 
         if (!jiraTaskIdMatch || jiraTaskIdMatch[1] === undefined) {
             status.innerHTML = 'No jira task id was found';
