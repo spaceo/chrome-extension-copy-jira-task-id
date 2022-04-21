@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "1.0",
   "name": "Copy Jira task id",
   "description": "Simple extension that copies the current jira task id",
@@ -8,7 +8,7 @@
     "48": "images/puppy48.png",
     "128": "images/puppy.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "images/puppy.png",
     "default_popup": "popup.html"
   },
@@ -16,4 +16,3 @@
     "activeTab"
   ]
 }
-
